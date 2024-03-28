@@ -2,7 +2,7 @@
  * @name Waifucord
  * @author Ki77y666#0001
  * @authorId 344340142431141890
- * @version 1.0.0
+ * @version 2.0.0
  * @description A beautiful waifu theme for BetterDiscord.
  * @source https://github.com/Fluffyware-Labs/Waifucord-theme
  * @website https://www.linkedin.com/company/fluffyware-labs/
@@ -28,7 +28,7 @@
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
+  --background-overlay: rgba(0, 0, 0, 0.6);
   --user-popout-image: url('https://i.imgur.com/XC2uLPG.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
@@ -55,8 +55,8 @@
   --home-position: center;
   --home-size: 40px;
   --channel-unread: var(--main-color);
-  --channel-color: rgba(255,255,255,0.3);
-  --muted-color: rgba(255,255,255,0.1);
+  --channel-color: rgba(255, 255, 255, 0.3);
+  --muted-color: rgba(255, 255, 255, 0.1);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
@@ -66,7 +66,7 @@
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-overlay: rgba(0, 0, 0, 0.8);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
   --backdrop-size: var(--background-size);
@@ -558,7 +558,7 @@ textarea,
 }
 
 .typeWindows_e41dab>.wordmark__5b8c9:after {
-  content: "v1.0.0";
+  content: "v2.0.0";
   color: rgba(255, 255, 255, .3);
   font-family: var(--code-font);
   font-size: 10px
@@ -7834,7 +7834,7 @@ code {
 
 .messagesPopoutWrap__10dd1,
 .recentMentionsPopout__40c54 {
-  background-color: var(--popout-color);
+  background-color: rgba(0, 0, 0, .75);
   animation: cv-menu-fold-y .2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
   transform-origin: 50% 0;
   border-radius: 5px;
