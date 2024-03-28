@@ -2,15 +2,13 @@
  * @name Waifucord
  * @author Ki77y666#0001
  * @authorId 344340142431141890
- * @version 2.0.0
+ * @version 1.0.0
  * @description A beautiful waifu theme for BetterDiscord.
  * @source https://github.com/Fluffyware-Labs/Waifucord-theme
  * @website https://www.linkedin.com/company/fluffyware-labs/
  * @invite 92mEjAk7ZE
  * @donate https://paypal.me/PayTheKi77y666
 */
-
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
   --main-color: #2780e6;
@@ -31,7 +29,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-popout-image: url('https://i.imgur.com/XC2uLPG.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -42,7 +40,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-image: url('https://i.imgur.com/XC2uLPG.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -553,14 +551,14 @@ textarea,
 }
 
 .typeWindows_e41dab>.wordmark__5b8c9:before {
-  content: "ClearVision";
+  content: "Waifucord";
   color: rgba(255, 255, 255, .7);
   font-size: 14px;
   text-shadow: 0 0 3px #000
 }
 
 .typeWindows_e41dab>.wordmark__5b8c9:after {
-  content: "v6.9.0";
+  content: "v1.0.0";
   color: rgba(255, 255, 255, .3);
   font-family: var(--code-font);
   font-size: 10px
