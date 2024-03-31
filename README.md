@@ -1,2 +1,2 @@
 # Waifucord-theme
-A beautiful waifu theme for BetterDiscord.
+A beautiful waifu theme for BetterDiscord & Vencord.
